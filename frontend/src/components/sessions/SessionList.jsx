@@ -1,5 +1,5 @@
 import SessionCard from "./SessionCard";
-
+import EmptyState from "../common/EmptyState";
 function SessionList({
 
     sessions,
@@ -10,19 +10,21 @@ function SessionList({
 
 }) {
 
-    if (!sessions.length) {
+    if (sessions.length === 0) {
 
-        return (
+    return (
 
-            <div className="text-center text-slate-400 mt-10">
+        <EmptyState
 
-                No sessions found
+            title="No Sessions"
 
-            </div>
+            description="No user sessions have been tracked yet."
 
-        );
+        />
 
-    }
+    );
+
+}
 
     return (
 
