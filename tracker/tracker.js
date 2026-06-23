@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/events";
+const API_URL = "https://user-analytics-dashboard-ran8.onrender.com/api/events";
 
 function getSessionId() {
     let sessionId = localStorage.getItem("analytics_session");
