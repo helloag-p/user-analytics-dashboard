@@ -42,8 +42,8 @@ function trackClick(event) {
         pageUrl: window.location.pathname,
         timestamp: new Date().toISOString(),
         click: {
-            x: event.clientX,
-            y: event.clientY,
+            x: event.pageX,
+            y: event.pageY,
         },
     });
 }
