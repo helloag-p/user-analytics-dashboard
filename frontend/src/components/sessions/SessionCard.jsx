@@ -35,11 +35,14 @@ function SessionCard({ session, selected, onSelect }) {
         <div className="flex items-center gap-1.5">
           <Clock3 size={14} className={selected ? "text-blue-500" : ""} />
           <span>
-            {new Date(session.lastActivity).toLocaleTimeString([], {
-              hour: "2-digit",
-              minute: "2-digit",
-            })}
-          </span>
+  {new Date(session.lastActivity).toLocaleString([], {
+    day: "2-digit",
+    month: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true,
+  })}
+</span>
         </div>
       </div>
     </button>

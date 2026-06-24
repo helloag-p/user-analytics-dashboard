@@ -11,7 +11,7 @@ function HeatmapCanvas({ clicks }) {
   }
 
   return (
-    <div className="relative h-[400px] w-full rounded-xl border border-slate-200 bg-white overflow-hidden shadow-inner">
+    <div className="relative h-[400px] w-full rounded-xl border border-slate-200 bg-white overflow-auto shadow-inner">
       {/* Subtle grid background to simulate a webpage canvas */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:20px_20px]"></div>
       
