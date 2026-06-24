@@ -35,6 +35,49 @@ A full-stack user analytics application that tracks user interactions on a webpa
 
 ---
 
+## 🌐 Live Deployment
+
+### 📊 Analytics Dashboard (Frontend)
+
+https://user-analytics-dashboard-one.vercel.app/
+
+Interactive dashboard for viewing:
+
+- Sessions
+- User Journey Timeline
+- Click Heatmap
+- Analytics Summary
+
+---
+
+### 🛍️ Demo Website
+
+https://user-analytics-dashboard-h6xa.vercel.app/
+
+Sample webpage integrated with the Analytics Tracker SDK.
+
+Interact with the buttons on this page to automatically generate:
+
+- Page View events
+- Click events
+- Session data
+
+These events are immediately available in the Analytics Dashboard.
+
+---
+
+### ⚙️ Backend API
+
+Health Check:
+
+https://user-analytics-dashboard-ran8.onrender.com/api/health
+
+Base API:
+
+https://user-analytics-dashboard-ran8.onrender.com/api
+
+---
+
 ## 🚀 Features
 
 ### 1. Client-Side Event Tracking
@@ -141,11 +184,16 @@ Example usage:
 
 ### Demo Website
 
+Live Demo:
+
+https://user-analytics-dashboard-h6xa.vercel.app/
+
 The `demo/` folder contains a simple sample webpage used for generating analytics data.
 
 A copy of `tracker.js` is included inside the demo folder to simplify static deployment and hosting on platforms like **Vercel**, allowing the demo website to function independently without external asset dependencies.
 
 This demonstrates how the tracker SDK can be integrated into a real webpage.
+
 
 ---
 
@@ -305,6 +353,17 @@ for efficient querying.
 - Device/browser analytics
 - Heat intensity visualization
 - Session replay support
+
+---
+
+## 🚀 Deployment
+
+| Component | Platform | URL |
+|------------|------------|------------------------------------------------|
+| Frontend Dashboard | Vercel | https://user-analytics-dashboard-one.vercel.app/ |
+| Demo Website | Vercel | https://user-analytics-dashboard-h6xa.vercel.app/ |
+| Backend API | Render | https://user-analytics-dashboard-ran8.onrender.com/api |
+| Health Check | Render | https://user-analytics-dashboard-ran8.onrender.com/api/health |
 
 ---
 
