@@ -20,7 +20,7 @@ function Dashboard() {
   const [selectedSession, setSelectedSession] = useState("");
   const [events, setEvents] = useState([]);
   const [heatmapData, setHeatmapData] = useState([]);
-  const [selectedPage, setSelectedPage] = useState("/demo/index.html");
+  const [selectedPage, setSelectedPage] = useState("/");
 
   // Performance optimization: Only recalculate when sessions array changes
   const totalEvents = useMemo(() => {

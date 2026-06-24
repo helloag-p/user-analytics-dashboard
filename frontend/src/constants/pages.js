@@ -1,5 +1,10 @@
 export const AVAILABLE_PAGES = [
-
-    "/demo/index.html",
-
+    {
+        label: "Hosted Demo",
+        value: "/",
+    },
+    {
+        label: "Local Demo",
+        value: "/demo/index.html",
+    },
 ];
