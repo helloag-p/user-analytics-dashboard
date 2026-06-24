@@ -29,12 +29,43 @@ A lightweight, drop-in JavaScript tracking script (`tracker.js`) that captures u
 
 ---
 
+## 📁 Project Structure
+
+```
+user-analytics/
+├── backend/                 # Node.js Express API
+│   ├── models/             # MongoDB schemas
+│   ├── routes/             # API endpoints
+│   ├── controllers/        # Business logic
+│   ├── .env                # Environment variables
+│   ├── package.json
+│   └── server.js           # Express server entry point
+│
+├── frontend/               # React Dashboard
+│   ├── src/
+│   │   ├── components/     # React components
+│   │   ├── pages/          # Dashboard pages
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── .env                # Environment variables
+│   ├── package.json
+│   └── vite.config.js
+│
+├── demo/                   # Demo webpage with tracker
+│   ├── index.html          # Demo page
+│   └── tracker.js          # Client-side tracking script
+│
+└── README.md
+```
+
+---
+
 ## ⚙️ Local Setup & Installation
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/helloag-p/user-analytics-dashboard
+git clone https://github.com/helloag-p/user-analytics.git
 cd user-analytics
 ```
 
@@ -162,4 +193,4 @@ Data is stored in a structured, query-optimized format in MongoDB:
 **Parv Agarwal** - Full Stack Developer
 
 - [GitHub](https://github.com/helloag-p)
-- [LinkedIn](https://www.linkedin.com/in/parv-agarwal-09b042215)
+- [LinkedIn](https://linkedin.com/in/helloag-p)
